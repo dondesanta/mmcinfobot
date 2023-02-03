@@ -8,13 +8,20 @@ def rec_matches(name):
         soup = BeautifulSoup(file, 'lxml')
         file.read()
 
-    recent_matches = soup.find('div', class_='recent-matches-holder')
-    recent_match = recent_matches.find_all('div', class_='recent-match-holder')
-
     player = soup.find('div', class_='player-info-name-upper')
     player_name_and_rank = player.find_all('span')
     player_name = player_name_and_rank[0].text
     rank = player_name_and_rank[1].text
+
+    recent_matches = soup.find('div', class_='recent-matches-holder')
+    try:
+        recent_match = recent_matches.find_all('div', class_='recent-match-holder')
+    except AttributeError:
+        text = f'<b>{player_name}</b> [{rank}]\n' \
+               '<b>Error:</b>\n' \
+               '\n' \
+               '<em>Recent matches not found</em>'
+        return text
 
     result = []
     for i in recent_match:

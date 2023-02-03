@@ -22,8 +22,8 @@
     <link href="/img/favicon.ico" rel="icon" type="image/png">
 
     <meta name="_csrf_header" content="X-CSRF-TOKEN">
-    <meta name="_csrf" content="abe3da95-b2eb-4a3b-b4e1-8b2a83ad6013">
-    <title>AwesomeAiden20 | Minemen Club</title>
+    <meta name="_csrf" content="3c4ba83a-8182-41be-a066-e6a49997d58f">
+    <title>dondesanta | Minemen Club</title>
 </head>
 
 <body class="dark-theme">
@@ -31,10 +31,10 @@
           <script type="text/javascript">
             var sbbvscc='';
             var sbbgscc='';
-            function genPid() {return String.fromCharCode(108)+String.fromCharCode(86) ; };
+            function genPid() {return String.fromCharCode(103)+String.fromCharCode(98) ; };
           </script>
         <div id='sbbfrcc' style='position: absolute; top: -10px; left: 30px; font-size:1px'></div>
-  <script type="text/javascript">(function(XHR){var open=XHR.prototype.open;var send=XHR.prototype.send;var parser=document.createElement('a');XHR.prototype.open=function(method, url, async, user, pass){if(typeof async=='undefined'){async=true;}parser.href=url;if(parser.host==''){parser.href=parser.href;}this.ajax_hostname=parser.hostname;open.call(this, method, url, async, user, pass);};XHR.prototype.send=function(data){if(location.hostname==this.ajax_hostname)this.setRequestHeader("X-MOD-SBB-CTYPE", "xhr");send.call(this, data);}})(XMLHttpRequest);if(typeof(fetch)!="undefined"){var nsbbfetch=fetch;fetch=function(url, init){if(typeof(url)==="object" && typeof(url.url)==="string"){init={method: url.method, mode: url.mode, cache: url.cache, credentials: url.credentials, headers: url.headers, body: url.body};url=url.url;}function sbbSd(url, domain){var parser=document.createElement('a');parser.href=url;if(parser.host==''){parser.href=parser.href;}return parser.hostname==location.hostname;}if(sbbSd(url, document.domain)){init=typeof init !=='undefined' ? init :{};if(typeof(init.headers)==="undefined"){init.headers={};}init.headers['X-MOD-SBB-CTYPE']='fetch';}return nsbbfetch(url, init);};}function sbbgc(check_name){var start=document.cookie.indexOf(check_name+"=");var oVal='';var len=start+check_name.length+1;if((!start)&&(document.cookie.substring(0,check_name.length)!=check_name)){oVal='';}else if(start==-1){oVal='';}else{var end=document.cookie.indexOf(';',len);if(end==-1)end=document.cookie.length;var oVal=document.cookie.substring(len,end);};return oVal;}function addmg(inm,ext){var primgobj=document.createElement('IMG');primgobj.src=window.location.protocol+"//"+window.location.hostname+(window.location.port && window.location.port!=80 ? ':'+window.location.port: '')+"/sbbi/?sbbpg="+inm+(ext?"&"+ext:"");var sbbDiv=document.getElementById('sbbfrcc');sbbDiv.appendChild(primgobj);};function addprid(prid){var oldVal=sbbgc("PRLST");if((oldVal.indexOf(prid)==-1)&&(oldVal.split('/').length<5)){if(oldVal!=''){oldVal+='/';}document.cookie='PRLST='+oldVal+escape(prid)+';path=/; SameSite=Lax;';}}var sbbeccf=function(){this.sp3="jass";this.sf1=function(vd){return sf2(vd)+32;};var sf2=function(avd){return avd*12;};this.sf4=function(yavd){return yavd+2;};var strrp=function(str, key, value){if(str.indexOf('&'+key+'=')> -1 || str.indexOf(key+'=')==0){var idx=str.indexOf('&'+key+'=');if(idx==-1)idx=str.indexOf(key+'=');var end=str.indexOf('&', idx+1);var newstr;if(end !=-1)newstr=str.substr(0, idx)+str.substr(end+(idx ? 0 : 1))+'&'+key+'='+value;else newstr=str.substr(0, idx)+'&'+key+'='+value;return newstr;}else return str+'&'+key+'='+value;};var strgt=function(name, text){if(typeof text !='string')return "";var nameEQ=name+"=";var ca=text.split(/[;&]/);for(var i=0;i < ca.length;i++){var c=ca[i];while(c.charAt(0)==' ')c=c.substring(1, c.length);if(c.indexOf(nameEQ)==0)return c.substring(nameEQ.length, c.length);}return "";};this.sfecgs={sbbgh:function(){var domain=document.location.host;if(domain.indexOf('www.')==0)domain=domain.replace('www.', '');return domain;}, f:function(name, value){var fv="";if(window.globalStorage){var host=this.sbbgh();try{if(typeof(value)!="undefined")globalStorage[host][name]=value;else{fv=globalStorage[host][name];if(typeof(fv.toString)!="undefined")fv=fv.toString();}}catch(e){}}return fv;}, name:"sbbrf"};this.sfecls={f:function(name, value){var fv="";try{if(window.localStorage){if(typeof(value)!="undefined")localStorage.setItem(name, value);else{fv=localStorage.getItem(name);if(typeof(fv.toString)!="undefined")fv=fv.toString();}}}catch(e){}return fv;}, name:"sbbrf"};this.sbbcv=function(invl){try{var invalArr=invl.split("-");if(invalArr.length>1){if(invalArr[0]=="A"||invalArr[0]=="D"){invl=invalArr[1];}else invl="";}if(invl==null||typeof(invl)=="undefined"||invl=="falseImgUT"||invl=="undefined"||invl=="null"||invl!=encodeURI(invl))invl="";if(typeof(invl).toLowerCase()=="string")if(invl.length>20)if(invl.substr(0,2)!="h4")invl="";}catch(ex){invl="";}return invl;};this.sbbsv=function(fv){for(var elm in this){if(this[elm].name=="sbbrf"){this[elm].f("altutgv2",fv);}}document.cookie="UTGv2="+fv+';expires=Tue, 01-Aug-23 18:52:58 GMT;path=/; SameSite=Lax;';};this.sbbgv=function(){var valArr=Array();var currVal="";for(var elm in this){if(this[elm].name=="sbbrf"){currVal=this[elm].f("altutgv2");currVal=this.sbbcv(currVal);if(currVal!="")valArr[currVal]=(typeof(valArr[currVal])!="undefined"?valArr[currVal]+1:1);}}var lb=0;var fv="";for(var val in valArr){if(valArr[val]>lb){fv=val;lb=valArr[val]}}if(fv=="")fv=sbbgc("UTGv2");fv=this.sbbcv(fv);if(fv!="")this.sbbsv(fv);else this.sbbsv("D-h4b5fbcc6511950159fa95966cccbc14a456");return fv;};};function m2vr(m1,m2){var i=0;var rc="";var est="ghijklmnopqrstuvwyz";var rnum;var rpl;var charm1=m1.charAt(i);var charm2=m2.charAt(i);while(charm1!=""||charm2!=""){rnum=Math.floor(Math.random()* est.length);rpl=est.substring(rnum,rnum+1);rc+=(charm1==""?rpl:charm1)+(charm2==""?rpl:charm2);i++;charm1=m1.charAt(i);charm2=m2.charAt(i);}return rc;}function sbbls(prid){try{var eut=sbbgc("UTGv2");window.sbbeccfi=new sbbeccf();window.sbbgs=sbbeccfi.sbbgv();if(eut!=sbbgs && sbbgs!="" && typeof(sbbfcr)=="undefined"){addmg('utMedia',"vii="+m2vr("77b90c7212ee8ca78e6a9ef3746ca2f4",sbbgs));}var sbbiframeObj=document.createElement('IFRAME');var dfx=new Date();sbbiframeObj.id='SBBCrossIframe';sbbiframeObj.title='SBBCrossIframe';sbbiframeObj.tabindex='-1';sbbiframeObj.lang='en';sbbiframeObj.style.visibility='hidden';sbbiframeObj.setAttribute('aria-hidden', 'true');sbbiframeObj.style.border='0px';if(document.all){sbbiframeObj.style.position='absolute';sbbiframeObj.style.top='-1px';sbbiframeObj.style.height='1px';sbbiframeObj.style.width='28px';}else{sbbiframeObj.style.height='1px';sbbiframeObj.style.width='0px';}sbbiframeObj.scrolling="NO";sbbiframeObj.src=window.location.protocol+"//"+window.location.hostname+(window.location.port && window.location.port!=80 ? ':'+window.location.port: '')+'/sbbi/?sbbpg=sbbShell&gprid='+prid + '&sbbgs='+sbbgs+'&ddl='+(Math.round(dfx.getTime()/1000)-1675363978)+'';var sbbDiv=document.getElementById('sbbfrcc');sbbDiv.appendChild(sbbiframeObj);}catch(ex){;}}try{var y=unescape(sbbvscc.replace(/^<\!\-\-\s*|\s*\-\->$/g,''));document.getElementById('sbbhscc').innerHTML=y;var x=unescape(sbbgscc.replace(/^<\!\-\-\s*|\s*\-\->$/g,''));}catch(e){x='function genPid(){return "jser";}';}try{if(window.gprid==undefined)document.write('<'+'script type="text/javascri'+'pt">'+x+"var gprid=genPid();addprid(gprid);sbbls(gprid);<"+"/script>");}catch(e){addprid("dwer");}</script>
+  <script type="text/javascript">(function(XHR){var open=XHR.prototype.open;var send=XHR.prototype.send;var parser=document.createElement('a');XHR.prototype.open=function(method, url, async, user, pass){if(typeof async=='undefined'){async=true;}parser.href=url;if(parser.host==''){parser.href=parser.href;}this.ajax_hostname=parser.hostname;open.call(this, method, url, async, user, pass);};XHR.prototype.send=function(data){if(location.hostname==this.ajax_hostname)this.setRequestHeader("X-MOD-SBB-CTYPE", "xhr");send.call(this, data);}})(XMLHttpRequest);if(typeof(fetch)!="undefined"){var nsbbfetch=fetch;fetch=function(url, init){if(typeof(url)==="object" && typeof(url.url)==="string"){init={method: url.method, mode: url.mode, cache: url.cache, credentials: url.credentials, headers: url.headers, body: url.body};url=url.url;}function sbbSd(url, domain){var parser=document.createElement('a');parser.href=url;if(parser.host==''){parser.href=parser.href;}return parser.hostname==location.hostname;}if(sbbSd(url, document.domain)){init=typeof init !=='undefined' ? init :{};if(typeof(init.headers)==="undefined"){init.headers={};}init.headers['X-MOD-SBB-CTYPE']='fetch';}return nsbbfetch(url, init);};}function sbbgc(check_name){var start=document.cookie.indexOf(check_name+"=");var oVal='';var len=start+check_name.length+1;if((!start)&&(document.cookie.substring(0,check_name.length)!=check_name)){oVal='';}else if(start==-1){oVal='';}else{var end=document.cookie.indexOf(';',len);if(end==-1)end=document.cookie.length;var oVal=document.cookie.substring(len,end);};return oVal;}function addmg(inm,ext){var primgobj=document.createElement('IMG');primgobj.src=window.location.protocol+"//"+window.location.hostname+(window.location.port && window.location.port!=80 ? ':'+window.location.port: '')+"/sbbi/?sbbpg="+inm+(ext?"&"+ext:"");var sbbDiv=document.getElementById('sbbfrcc');sbbDiv.appendChild(primgobj);};function addprid(prid){var oldVal=sbbgc("PRLST");if((oldVal.indexOf(prid)==-1)&&(oldVal.split('/').length<5)){if(oldVal!=''){oldVal+='/';}document.cookie='PRLST='+oldVal+escape(prid)+';path=/; SameSite=Lax;';}}var sbbeccf=function(){this.sp3="jass";this.sf1=function(vd){return sf2(vd)+32;};var sf2=function(avd){return avd*12;};this.sf4=function(yavd){return yavd+2;};var strrp=function(str, key, value){if(str.indexOf('&'+key+'=')> -1 || str.indexOf(key+'=')==0){var idx=str.indexOf('&'+key+'=');if(idx==-1)idx=str.indexOf(key+'=');var end=str.indexOf('&', idx+1);var newstr;if(end !=-1)newstr=str.substr(0, idx)+str.substr(end+(idx ? 0 : 1))+'&'+key+'='+value;else newstr=str.substr(0, idx)+'&'+key+'='+value;return newstr;}else return str+'&'+key+'='+value;};var strgt=function(name, text){if(typeof text !='string')return "";var nameEQ=name+"=";var ca=text.split(/[;&]/);for(var i=0;i < ca.length;i++){var c=ca[i];while(c.charAt(0)==' ')c=c.substring(1, c.length);if(c.indexOf(nameEQ)==0)return c.substring(nameEQ.length, c.length);}return "";};this.sfecgs={sbbgh:function(){var domain=document.location.host;if(domain.indexOf('www.')==0)domain=domain.replace('www.', '');return domain;}, f:function(name, value){var fv="";if(window.globalStorage){var host=this.sbbgh();try{if(typeof(value)!="undefined")globalStorage[host][name]=value;else{fv=globalStorage[host][name];if(typeof(fv.toString)!="undefined")fv=fv.toString();}}catch(e){}}return fv;}, name:"sbbrf"};this.sfecls={f:function(name, value){var fv="";try{if(window.localStorage){if(typeof(value)!="undefined")localStorage.setItem(name, value);else{fv=localStorage.getItem(name);if(typeof(fv.toString)!="undefined")fv=fv.toString();}}}catch(e){}return fv;}, name:"sbbrf"};this.sbbcv=function(invl){try{var invalArr=invl.split("-");if(invalArr.length>1){if(invalArr[0]=="A"||invalArr[0]=="D"){invl=invalArr[1];}else invl="";}if(invl==null||typeof(invl)=="undefined"||invl=="falseImgUT"||invl=="undefined"||invl=="null"||invl!=encodeURI(invl))invl="";if(typeof(invl).toLowerCase()=="string")if(invl.length>20)if(invl.substr(0,2)!="h4")invl="";}catch(ex){invl="";}return invl;};this.sbbsv=function(fv){for(var elm in this){if(this[elm].name=="sbbrf"){this[elm].f("altutgv2",fv);}}document.cookie="UTGv2="+fv+';expires=Wed, 02-Aug-23 10:03:26 GMT;path=/; SameSite=Lax;';};this.sbbgv=function(){var valArr=Array();var currVal="";for(var elm in this){if(this[elm].name=="sbbrf"){currVal=this[elm].f("altutgv2");currVal=this.sbbcv(currVal);if(currVal!="")valArr[currVal]=(typeof(valArr[currVal])!="undefined"?valArr[currVal]+1:1);}}var lb=0;var fv="";for(var val in valArr){if(valArr[val]>lb){fv=val;lb=valArr[val]}}if(fv=="")fv=sbbgc("UTGv2");fv=this.sbbcv(fv);if(fv!="")this.sbbsv(fv);else this.sbbsv("D-h434b91533d3b8e417af80ede992f33e4852");return fv;};};function m2vr(m1,m2){var i=0;var rc="";var est="ghijklmnopqrstuvwyz";var rnum;var rpl;var charm1=m1.charAt(i);var charm2=m2.charAt(i);while(charm1!=""||charm2!=""){rnum=Math.floor(Math.random()* est.length);rpl=est.substring(rnum,rnum+1);rc+=(charm1==""?rpl:charm1)+(charm2==""?rpl:charm2);i++;charm1=m1.charAt(i);charm2=m2.charAt(i);}return rc;}function sbbls(prid){try{var eut=sbbgc("UTGv2");window.sbbeccfi=new sbbeccf();window.sbbgs=sbbeccfi.sbbgv();if(eut!=sbbgs && sbbgs!="" && typeof(sbbfcr)=="undefined"){addmg('utMedia',"vii="+m2vr("3795c2739df2d3d3ac89f231f7008779",sbbgs));}var sbbiframeObj=document.createElement('IFRAME');var dfx=new Date();sbbiframeObj.id='SBBCrossIframe';sbbiframeObj.title='SBBCrossIframe';sbbiframeObj.tabindex='-1';sbbiframeObj.lang='en';sbbiframeObj.style.visibility='hidden';sbbiframeObj.setAttribute('aria-hidden', 'true');sbbiframeObj.style.border='0px';if(document.all){sbbiframeObj.style.position='absolute';sbbiframeObj.style.top='-1px';sbbiframeObj.style.height='1px';sbbiframeObj.style.width='28px';}else{sbbiframeObj.style.height='1px';sbbiframeObj.style.width='0px';}sbbiframeObj.scrolling="NO";sbbiframeObj.src=window.location.protocol+"//"+window.location.hostname+(window.location.port && window.location.port!=80 ? ':'+window.location.port: '')+'/sbbi/?sbbpg=sbbShell&gprid='+prid + '&sbbgs='+sbbgs+'&ddl='+(Math.round(dfx.getTime()/1000)-1675418606)+'';var sbbDiv=document.getElementById('sbbfrcc');sbbDiv.appendChild(sbbiframeObj);}catch(ex){;}}try{var y=unescape(sbbvscc.replace(/^<\!\-\-\s*|\s*\-\->$/g,''));document.getElementById('sbbhscc').innerHTML=y;var x=unescape(sbbgscc.replace(/^<\!\-\-\s*|\s*\-\->$/g,''));}catch(e){x='function genPid(){return "jser";}';}try{if(window.gprid==undefined)document.write('<'+'script type="text/javascri'+'pt">'+x+"var gprid=genPid();addprid(gprid);sbbls(gprid);<"+"/script>");}catch(e){addprid("dwer");}</script>
 <div class="body">
     <div class="container-fluid">
         
@@ -173,7 +173,7 @@
                         <div class="row">
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                                 <div class="player-photo" data-aos="fade-right">
-                                    <img src="https://visage.surgeplay.com/full/512/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
+                                    <img src="https://visage.surgeplay.com/full/512/1aad3be2-a7c6-42ea-824a-28648969f789"/>
                                 </div>
                             </div>
                             <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
@@ -183,13 +183,13 @@
                                             <div class="player-info-name">
                                                 <div class="player-info-head-part">
                                                     <img class="player-info-head"
-                                                         src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
+                                                         src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
                                                 </div>
                                                 <div class="player-info-name-part">
                                                     <div class="player-info-name-upper">
-                                                        <span>AwesomeAiden20</span>
+                                                        <span>dondesanta</span>
                                                         <div class="player-info-ranks">
-                                                            <span class="player-info-rank rank-default">Default</span>
+                                                            <span class="player-info-rank rank-pro">PRO</span>
                                                         </div>
                                                     </div>
 
@@ -202,7 +202,7 @@
                                                                 
                                                                     <span class="player-status offline">
                                                                     Last seen <time class="timeago"
-                                                                                    datetime="2023-02-02T03:22:33.137Z"></time>
+                                                                                    datetime="2023-01-31T09:45:08.659Z"></time>
                                                                     </span>
                                                                 
 
@@ -223,7 +223,7 @@
                                                 <tbody>
                                                 <tr>
                                                     <td>FIRST JOINED</td>
-                                                    <td>01-11-2019</td>
+                                                    <td>16-09-2021</td>
                                                 </tr>
                                                 <tbody>
                                             </table>
@@ -256,10 +256,10 @@
                                                 <div class="tab-content">
                                                     <div class="statistics-practice">
                                                         <span class="title"><img src="/img/inventory/items/276-0.png"/>Practice</span>
-                                                        <span class="stat-tab"><span class="number">909</span> Global ELO</span>
-                                                        <span class="stat-tab"><span class="number">728</span> Wins</span>
-                                                        <span class="stat-tab"><span class="number">1,047</span> Losses</span>
-                                                        <span class="stat-tab"><span class="number">0.70</span> W/L Ratio</span>
+                                                        <span class="stat-tab"><span class="number">1,120</span> Global ELO</span>
+                                                        <span class="stat-tab"><span class="number">57</span> Wins</span>
+                                                        <span class="stat-tab"><span class="number">9</span> Losses</span>
+                                                        <span class="stat-tab"><span class="number">6.33</span> W/L Ratio</span>
                                                     </div>
                                                     <div class="statistics-practice">
                                                         <span class="title"><img src="/img/inventory/items/327-0.png"/>UHC Games</span>
@@ -272,16 +272,16 @@
                                                         <span class="title"><img
                                                                 src="/img/inventory/items/346-0.png"/>Survival Games</span>
                                                         <span class="stat-tab"><span class="number">0</span> Kills</span>
-                                                        <span class="stat-tab"><span class="number">1</span> Deaths</span>
+                                                        <span class="stat-tab"><span class="number">0</span> Deaths</span>
                                                         <span class="stat-tab"><span class="number">0</span> Games Won</span>
-                                                        <span class="stat-tab"><span class="number">1</span> Games</span>
+                                                        <span class="stat-tab"><span class="number">0</span> Games</span>
                                                     </div>
                                                     <div class="statistics-practice">
                                                         <span class="title"><img src="/img/inventory/items/322-0.png"/>UHC Meetup</span>
-                                                        <span class="stat-tab"><span class="number">0</span> Kills</span>
-                                                        <span class="stat-tab"><span class="number">1</span> Deaths</span>
+                                                        <span class="stat-tab"><span class="number">2</span> Kills</span>
+                                                        <span class="stat-tab"><span class="number">5</span> Deaths</span>
                                                         <span class="stat-tab"><span class="number">0</span> Games Won</span>
-                                                        <span class="stat-tab"><span class="number">1</span> Games</span>
+                                                        <span class="stat-tab"><span class="number">5</span> Games</span>
                                                     </div>
                                                     <div class="statistics-practice">
                                                         <span class="title"><img
@@ -297,25 +297,15 @@
                                                     <div class="statistics-practice">
                                                         <span class="title"><img src="/img/inventory/items/373-16421.png"/><span>NoDebuff</span></span>
                                                         <span class="stat-tab"><span
-                                                                class="number">971</span> ELO</span>
-                                                        <span class="stat-tab"><span class="number">716</span> Wins</span>
-                                                        <span class="stat-tab"><span
-                                                                class="number">1,008</span> Losses</span>
-                                                        <span class="stat-tab"><span
-                                                                class="number">0.71</span> W/L Ratio</span>
-                                                    </div>
-                                                    <div class="statistics-practice">
-                                                        <span class="title"><img src="/img/inventory/items/311-0.png"/><span>Boxing</span></span>
-                                                        <span class="stat-tab"><span
-                                                                class="number">988</span> ELO</span>
+                                                                class="number">1,000</span> ELO</span>
                                                         <span class="stat-tab"><span class="number">0</span> Wins</span>
                                                         <span class="stat-tab"><span
-                                                                class="number">1</span> Losses</span>
+                                                                class="number">0</span> Losses</span>
                                                         <span class="stat-tab"><span
                                                                 class="number">0.00</span> W/L Ratio</span>
                                                     </div>
                                                     <div class="statistics-practice">
-                                                        <span class="title"><img src="/img/inventory/items/111-0.png"/><span>BattleRush</span></span>
+                                                        <span class="title"><img src="/img/inventory/items/311-0.png"/><span>Boxing</span></span>
                                                         <span class="stat-tab"><span
                                                                 class="number">1,000</span> ELO</span>
                                                         <span class="stat-tab"><span class="number">0</span> Wins</span>
@@ -323,6 +313,16 @@
                                                                 class="number">0</span> Losses</span>
                                                         <span class="stat-tab"><span
                                                                 class="number">0.00</span> W/L Ratio</span>
+                                                    </div>
+                                                    <div class="statistics-practice">
+                                                        <span class="title"><img src="/img/inventory/items/111-0.png"/><span>BattleRush</span></span>
+                                                        <span class="stat-tab"><span
+                                                                class="number">1,307</span> ELO</span>
+                                                        <span class="stat-tab"><span class="number">50</span> Wins</span>
+                                                        <span class="stat-tab"><span
+                                                                class="number">6</span> Losses</span>
+                                                        <span class="stat-tab"><span
+                                                                class="number">8.33</span> W/L Ratio</span>
                                                     </div>
                                                     <div class="statistics-practice">
                                                         <span class="title"><img src="/img/inventory/items/159-0.png"/><span>Bridges</span></span>
@@ -347,16 +347,6 @@
                                                     <div class="statistics-practice">
                                                         <span class="title"><img src="/img/inventory/items/420-0.png"/><span>Sumo</span></span>
                                                         <span class="stat-tab"><span
-                                                                class="number">904</span> ELO</span>
-                                                        <span class="stat-tab"><span class="number">9</span> Wins</span>
-                                                        <span class="stat-tab"><span
-                                                                class="number">20</span> Losses</span>
-                                                        <span class="stat-tab"><span
-                                                                class="number">0.45</span> W/L Ratio</span>
-                                                    </div>
-                                                    <div class="statistics-practice">
-                                                        <span class="title"><img src="/img/inventory/items/368-0.png"/><span>PearlFight</span></span>
-                                                        <span class="stat-tab"><span
                                                                 class="number">1,000</span> ELO</span>
                                                         <span class="stat-tab"><span class="number">0</span> Wins</span>
                                                         <span class="stat-tab"><span
@@ -365,14 +355,24 @@
                                                                 class="number">0.00</span> W/L Ratio</span>
                                                     </div>
                                                     <div class="statistics-practice">
+                                                        <span class="title"><img src="/img/inventory/items/368-0.png"/><span>PearlFight</span></span>
+                                                        <span class="stat-tab"><span
+                                                                class="number">1,041</span> ELO</span>
+                                                        <span class="stat-tab"><span class="number">5</span> Wins</span>
+                                                        <span class="stat-tab"><span
+                                                                class="number">2</span> Losses</span>
+                                                        <span class="stat-tab"><span
+                                                                class="number">2.50</span> W/L Ratio</span>
+                                                    </div>
+                                                    <div class="statistics-practice">
                                                         <span class="title"><img src="/img/inventory/items/327-0.png"/><span>BuildUHC</span></span>
                                                         <span class="stat-tab"><span
-                                                                class="number">862</span> ELO</span>
-                                                        <span class="stat-tab"><span class="number">3</span> Wins</span>
+                                                                class="number">1,000</span> ELO</span>
+                                                        <span class="stat-tab"><span class="number">0</span> Wins</span>
                                                         <span class="stat-tab"><span
-                                                                class="number">18</span> Losses</span>
+                                                                class="number">0</span> Losses</span>
                                                         <span class="stat-tab"><span
-                                                                class="number">0.17</span> W/L Ratio</span>
+                                                                class="number">0.00</span> W/L Ratio</span>
                                                     </div>
                                                     <div class="statistics-practice">
                                                         <span class="title"><img src="/img/inventory/items/381-0.png"/><span>SkyWars</span></span>
@@ -437,225 +437,27 @@
                                                     <div class="statistics-practice">
                                                         <span class="title"><img src="/img/inventory/items/281-0.png"/><span>Soup</span></span>
                                                         <span class="stat-tab"><span
-                                                                class="number">1,000</span> ELO</span>
-                                                        <span class="stat-tab"><span class="number">0</span> Wins</span>
+                                                                class="number">1,013</span> ELO</span>
+                                                        <span class="stat-tab"><span class="number">2</span> Wins</span>
                                                         <span class="stat-tab"><span
-                                                                class="number">0</span> Losses</span>
+                                                                class="number">1</span> Losses</span>
                                                         <span class="stat-tab"><span
-                                                                class="number">0.00</span> W/L Ratio</span>
+                                                                class="number">2.00</span> W/L Ratio</span>
                                                     </div>
                                                 </div>
                                                 <div class="tab-content table-wrapper">
                                                     <div class="recent-matches-holder">
                                                         
                                                         <div class="recent-match-holder">
-                                                            <a href="/match/a0b9ffd2-4dbc-4583-860a-5f3ba91678be">
+                                                            <a href="/match/8dbcbc3b-5a63-4d48-9762-fbf732a38d29">
                                                                 <div class="recent-matches">
                                                                     <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
                                                                         <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
+                                                                        <span class="name">dondesanta</span>
                                                                             <span class="elo">
-                                                                            971
-                                                                            
-                                                                            <span class="eloremove">(-6)</span>
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">gg79</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/d90f57ef-f7d9-471c-a4c8-ba7931fb0f9b"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T03:21:25Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/4bd11c0f-d7e7-4893-9ffc-9472e6260b2d">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            977
-                                                                            
-                                                                            <span class="eloremove">(-9)</span>
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">ICraveSex</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/d26dec90-8e2c-4e41-a88a-21cb3b24b80f"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T03:18:14Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/6b3bce31-60cf-433e-b55b-e738a76a16f4">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            986
-                                                                            
-                                                                            <span class="eloremove">(-13)</span>
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">Fattiest</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/4713fbe8-1b43-4710-86e3-57271d7998cd"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T03:15:20Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/be35008f-025a-4d15-b545-e1838a00dda8">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            999
-                                                                            
-                                                                            <span class="eloremove">(-15)</span>
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">Fattiest</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/4713fbe8-1b43-4710-86e3-57271d7998cd"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T03:11:48Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/a8a7b6dd-6542-4dd9-bbcf-2a7b4d484b34">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            1014
-                                                                            
-                                                                            <span class="eloremove">(-18)</span>
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">TMGd</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/c24099d6-271b-45e4-a52d-c71abcfd7e2d"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T03:08:21Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/603175ad-5367-4795-8cdd-5728e93099e3">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            1032
-                                                                            
-                                                                            <span class="eloremove">(-11)</span>
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">ICraveSex</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/d26dec90-8e2c-4e41-a88a-21cb3b24b80f"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T03:04:18Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/1b671fae-ea01-45ca-bf8e-26bce29fe77a">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            1043
-                                                                            <span class="eloadd">(+8)</span>
+                                                                            1307
+                                                                            <span class="eloadd">(+12)</span>
                                                                             
                                                                         </span>
                                                                         </div>
@@ -665,62 +467,29 @@
                                                                     </div>
                                                                     <div class="player-2">
                                                                         <div class="player-info">
-                                                                        <span class="name">DeathOfJello</span>
+                                                                        <span class="name">vexfan</span>
                                                                             <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
                                                                         </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/8738167c-e074-4f6f-a0c8-20945e663b47"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/fa6e3845-3439-4a50-bb7c-133dbdc9573e"/>
                                                                     </div>
                                                                 </div>
                                                                 <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
+                                                                <span class="match-type">BATTLERUSH</span>
                                                                     <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T03:00:17Z"></time></span>
+                                                                                                   datetime="2022-09-02T19:02:26Z"></time></span>
                                                                 </div>
                                                             </a>
                                                         </div>
                                                         
                                                         <div class="recent-match-holder">
-                                                            <a href="/match/05172880-78d1-42f0-b6b4-f80b17941198">
+                                                            <a href="/match/cb1d22cb-6547-4b93-a6dd-7b10e348791f">
                                                                 <div class="recent-matches">
                                                                     <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
                                                                         <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
+                                                                        <span class="name">dondesanta</span>
                                                                             <span class="elo">
-                                                                            1035
-                                                                            <span class="eloadd">(+8)</span>
-                                                                            
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">PackStealer</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/632cdf9e-9f07-464b-b919-0e7a12d5870e"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T02:57:07Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/d08f86e4-6bf4-4c0f-9a7a-dd44e9499812">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            1027
+                                                                            1295
                                                                             
                                                                             <span class="eloremove">(-21)</span>
                                                                         </span>
@@ -731,30 +500,30 @@
                                                                     </div>
                                                                     <div class="player-2">
                                                                         <div class="player-info">
-                                                                        <span class="name">5doh</span>
+                                                                        <span class="name">vexfan</span>
                                                                             <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
                                                                         </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/7a998527-14ba-4665-9781-c869761e8732"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/fa6e3845-3439-4a50-bb7c-133dbdc9573e"/>
                                                                     </div>
                                                                 </div>
                                                                 <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
+                                                                <span class="match-type">BATTLERUSH</span>
                                                                     <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T01:48:17Z"></time></span>
+                                                                                                   datetime="2022-09-02T19:00:48Z"></time></span>
                                                                 </div>
                                                             </a>
                                                         </div>
                                                         
                                                         <div class="recent-match-holder">
-                                                            <a href="/match/21c4828f-ebb0-46cc-84b9-a0ded54f1b56">
+                                                            <a href="/match/ce2af526-a11b-4dbc-9e40-bb319e985f14">
                                                                 <div class="recent-matches">
                                                                     <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
                                                                         <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
+                                                                        <span class="name">dondesanta</span>
                                                                             <span class="elo">
-                                                                            1048
-                                                                            <span class="eloadd">(+6)</span>
+                                                                            1316
+                                                                            <span class="eloadd">(+11)</span>
                                                                             
                                                                         </span>
                                                                         </div>
@@ -764,162 +533,30 @@
                                                                     </div>
                                                                     <div class="player-2">
                                                                         <div class="player-info">
-                                                                        <span class="name">Focas</span>
+                                                                        <span class="name">vexfan</span>
                                                                             <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
                                                                         </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/0de46932-d616-4d05-82ea-5f39e2c64db3"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/fa6e3845-3439-4a50-bb7c-133dbdc9573e"/>
                                                                     </div>
                                                                 </div>
                                                                 <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
+                                                                <span class="match-type">BATTLERUSH</span>
                                                                     <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T01:44:33Z"></time></span>
+                                                                                                   datetime="2022-09-02T18:57:54Z"></time></span>
                                                                 </div>
                                                             </a>
                                                         </div>
                                                         
                                                         <div class="recent-match-holder">
-                                                            <a href="/match/2e3fdd0f-7fb5-4be7-b995-e9d33db3e4e0">
+                                                            <a href="/match/e5abdae4-1163-4343-ad9a-96f3b9fff352">
                                                                 <div class="recent-matches">
                                                                     <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
                                                                         <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
+                                                                        <span class="name">dondesanta</span>
                                                                             <span class="elo">
-                                                                            1042
-                                                                            
-                                                                            <span class="eloremove">(-6)</span>
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">Monacco</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/c937f0d9-5302-4197-bbbe-02e66a6ac8b8"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T01:41:21Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/723abc2b-1b7e-4276-adc3-6e10ccbd1660">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            1048
-                                                                            
-                                                                            <span class="eloremove">(-6)</span>
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">Monacco</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/c937f0d9-5302-4197-bbbe-02e66a6ac8b8"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T01:38:02Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/ca94b4bd-a54e-4b29-a153-6690d6838c9b">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            1054
-                                                                            
-                                                                            <span class="eloremove">(-6)</span>
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">Monacco</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/c937f0d9-5302-4197-bbbe-02e66a6ac8b8"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T01:34:39Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/71428edf-a293-4ded-bc79-3821858cf8fd">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            1060
-                                                                            
-                                                                            <span class="eloremove">(-7)</span>
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">Monacco</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/c937f0d9-5302-4197-bbbe-02e66a6ac8b8"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T01:29:07Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/d8ad5f5d-614f-4eb6-af3c-3dadb59ebfa2">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            1067
-                                                                            <span class="eloadd">(+13)</span>
+                                                                            1305
+                                                                            <span class="eloadd">(+12)</span>
                                                                             
                                                                         </span>
                                                                         </div>
@@ -929,30 +566,63 @@
                                                                     </div>
                                                                     <div class="player-2">
                                                                         <div class="player-info">
-                                                                        <span class="name">Plateless</span>
+                                                                        <span class="name">vexfan</span>
                                                                             <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
                                                                         </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/1f3c410a-b3b4-4054-a9d8-a85768cd1aa0"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/fa6e3845-3439-4a50-bb7c-133dbdc9573e"/>
                                                                     </div>
                                                                 </div>
                                                                 <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
+                                                                <span class="match-type">BATTLERUSH</span>
                                                                     <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T01:23:28Z"></time></span>
+                                                                                                   datetime="2022-09-02T18:56:32Z"></time></span>
                                                                 </div>
                                                             </a>
                                                         </div>
                                                         
                                                         <div class="recent-match-holder">
-                                                            <a href="/match/e627603c-da3b-43e9-94fe-c7934c21f340">
+                                                            <a href="/match/e87a610d-8ebb-4d72-bc0e-6a2d96045ad7">
                                                                 <div class="recent-matches">
                                                                     <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
                                                                         <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
+                                                                        <span class="name">dondesanta</span>
                                                                             <span class="elo">
-                                                                            1054
-                                                                            <span class="eloadd">(+14)</span>
+                                                                            1293
+                                                                            
+                                                                            <span class="eloremove">(-20)</span>
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">vexfan</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/fa6e3845-3439-4a50-bb7c-133dbdc9573e"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-02T18:55:17Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/3434a530-71d8-4e87-803a-a6f14a377a37">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1313
+                                                                            <span class="eloadd">(+11)</span>
                                                                             
                                                                         </span>
                                                                         </div>
@@ -962,30 +632,96 @@
                                                                     </div>
                                                                     <div class="player-2">
                                                                         <div class="player-info">
-                                                                        <span class="name">Plateless</span>
+                                                                        <span class="name">vexfan</span>
                                                                             <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
                                                                         </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/1f3c410a-b3b4-4054-a9d8-a85768cd1aa0"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/fa6e3845-3439-4a50-bb7c-133dbdc9573e"/>
                                                                     </div>
                                                                 </div>
                                                                 <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
+                                                                <span class="match-type">BATTLERUSH</span>
                                                                     <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T01:20:59Z"></time></span>
+                                                                                                   datetime="2022-09-02T18:53:27Z"></time></span>
                                                                 </div>
                                                             </a>
                                                         </div>
                                                         
                                                         <div class="recent-match-holder">
-                                                            <a href="/match/77a6d2e9-29c9-45ae-9dcf-96e33aead0e8">
+                                                            <a href="/match/df71cab2-fcba-4d47-9e64-087cf886de73">
                                                                 <div class="recent-matches">
                                                                     <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
                                                                         <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
+                                                                        <span class="name">dondesanta</span>
                                                                             <span class="elo">
-                                                                            1040
-                                                                            <span class="eloadd">(+8)</span>
+                                                                            1302
+                                                                            
+                                                                            <span class="eloremove">(-21)</span>
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">vexfan</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/fa6e3845-3439-4a50-bb7c-133dbdc9573e"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-02T18:51:54Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/d87e483e-c3de-42c5-ad30-f47854e55ac2">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1323
+                                                                            
+                                                                            <span class="eloremove">(-28)</span>
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">cuze_</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/0abde7ff-67ab-495d-b5d5-7f2f5c010d8f"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-02T18:49:25Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/1ad23976-ee60-4535-8323-ea7e268b9863">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1351
+                                                                            <span class="eloadd">(+3)</span>
                                                                             
                                                                         </span>
                                                                         </div>
@@ -995,31 +731,31 @@
                                                                     </div>
                                                                     <div class="player-2">
                                                                         <div class="player-info">
-                                                                        <span class="name">Focas</span>
+                                                                        <span class="name">StardsInTheSnow</span>
                                                                             <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
                                                                         </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/0de46932-d616-4d05-82ea-5f39e2c64db3"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/dfa49298-c4ff-47ef-b948-585ff3ddaeae"/>
                                                                     </div>
                                                                 </div>
                                                                 <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
+                                                                <span class="match-type">BATTLERUSH</span>
                                                                     <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T01:16:49Z"></time></span>
+                                                                                                   datetime="2022-09-01T23:42:21Z"></time></span>
                                                                 </div>
                                                             </a>
                                                         </div>
                                                         
                                                         <div class="recent-match-holder">
-                                                            <a href="/match/882e5950-6bfa-4cb9-9d18-1318326213a9">
+                                                            <a href="/match/072e7fd5-0b25-4919-80ea-9e10dd83b933">
                                                                 <div class="recent-matches">
                                                                     <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
                                                                         <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
+                                                                        <span class="name">dondesanta</span>
                                                                             <span class="elo">
-                                                                            1032
+                                                                            1041
                                                                             
-                                                                            <span class="eloremove">(-6)</span>
+                                                                            <span class="eloremove">(-15)</span>
                                                                         </span>
                                                                         </div>
                                                                     </div>
@@ -1028,96 +764,30 @@
                                                                     </div>
                                                                     <div class="player-2">
                                                                         <div class="player-info">
-                                                                        <span class="name">Monacco</span>
+                                                                        <span class="name">Liafi</span>
                                                                             <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
                                                                         </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/c937f0d9-5302-4197-bbbe-02e66a6ac8b8"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/65ad353d-f613-49a4-841b-8df8ab1c1853"/>
                                                                     </div>
                                                                 </div>
                                                                 <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
+                                                                <span class="match-type">PEARLFIGHT</span>
                                                                     <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T01:15:16Z"></time></span>
+                                                                                                   datetime="2022-09-01T23:38:23Z"></time></span>
                                                                 </div>
                                                             </a>
                                                         </div>
                                                         
                                                         <div class="recent-match-holder">
-                                                            <a href="/match/85ace4aa-7ce1-4b45-8b6f-29c069aba57e">
+                                                            <a href="/match/cd84f1dc-775d-4418-ae65-6253e5b7a2b9">
                                                                 <div class="recent-matches">
                                                                     <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
                                                                         <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
+                                                                        <span class="name">dondesanta</span>
                                                                             <span class="elo">
-                                                                            1038
-                                                                            <span class="eloadd">(+6)</span>
-                                                                            
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">Releases</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/132c59b1-1daf-40c3-ab79-aadc770087c0"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T01:10:39Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/da47aeef-1b1a-4ae6-8471-e90aaa0870bf">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            1032
-                                                                            
-                                                                            <span class="eloremove">(-17)</span>
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">Showad</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/d1d6d4e1-cbb8-4cef-8bc5-6716c5e43d4a"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T01:05:54Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/583cb3bc-9177-47de-8f71-27ad082d2773">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            1049
-                                                                            <span class="eloadd">(+5)</span>
+                                                                            1348
+                                                                            <span class="eloadd">(+3)</span>
                                                                             
                                                                         </span>
                                                                         </div>
@@ -1127,128 +797,29 @@
                                                                     </div>
                                                                     <div class="player-2">
                                                                         <div class="player-info">
-                                                                        <span class="name">Releases</span>
+                                                                        <span class="name">Kisameee_</span>
                                                                             <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
                                                                         </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/132c59b1-1daf-40c3-ab79-aadc770087c0"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/0d3c39f8-853d-4c00-8338-dc31aa96304f"/>
                                                                     </div>
                                                                 </div>
                                                                 <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
+                                                                <span class="match-type">BATTLERUSH</span>
                                                                     <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T01:02:32Z"></time></span>
+                                                                                                   datetime="2022-09-01T23:32:33Z"></time></span>
                                                                 </div>
                                                             </a>
                                                         </div>
                                                         
                                                         <div class="recent-match-holder">
-                                                            <a href="/match/289d0939-4c29-4661-a917-50f5ef18a2f8">
+                                                            <a href="/match/36891779-ecd2-4ccf-a0f1-335e71fa963e">
                                                                 <div class="recent-matches">
                                                                     <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
                                                                         <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
+                                                                        <span class="name">dondesanta</span>
                                                                             <span class="elo">
-                                                                            1044
-                                                                            <span class="eloadd">(+8)</span>
-                                                                            
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">stewXD</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/cb83e8f6-2062-4ada-80d8-38d5eb0eef39"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-02T00:59:48Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/27f40e96-5727-40af-9ad2-9625b6ed27e6">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            1036
-                                                                            
-                                                                            <span class="eloremove">(-8)</span>
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">Monacco</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/c937f0d9-5302-4197-bbbe-02e66a6ac8b8"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-01T22:09:33Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/d40aebc1-43e8-445f-be8e-97ff040eb366">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            1044
-                                                                            <span class="eloadd">(+13)</span>
-                                                                            
-                                                                        </span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vs">
-                                                                        <span>vs</span>
-                                                                    </div>
-                                                                    <div class="player-2">
-                                                                        <div class="player-info">
-                                                                        <span class="name">uuzy</span>
-                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
-                                                                        </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/903757f7-715e-40a1-ac84-f226db11dfa2"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
-                                                                    <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-01T22:05:02Z"></time></span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        
-                                                        <div class="recent-match-holder">
-                                                            <a href="/match/33af5cca-0ef3-4268-ab5f-61f98e9b3995">
-                                                                <div class="recent-matches">
-                                                                    <div class="player-1">
-                                                                        <img src="https://visage.surgeplay.com/face/128/eddeacdb-6517-4cd9-9ef8-5fd3259be628"/>
-                                                                        <div class="player-info">
-                                                                        <span class="name">AwesomeAiden20</span>
-                                                                            <span class="elo">
-                                                                            1031
+                                                                            1345
                                                                             <span class="eloadd">(+9)</span>
                                                                             
                                                                         </span>
@@ -1259,16 +830,445 @@
                                                                     </div>
                                                                     <div class="player-2">
                                                                         <div class="player-info">
-                                                                        <span class="name">MWQ101</span>
+                                                                        <span class="name">amphetyze</span>
                                                                             <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
                                                                         </div>
-                                                                        <img src="https://visage.surgeplay.com/face/128/8e793246-440d-41b5-ae33-bbc19bb2ecbc"/>
+                                                                        <img src="https://visage.surgeplay.com/face/128/faef0cac-9021-49bf-9d2e-2f7e3fdce5e7"/>
                                                                     </div>
                                                                 </div>
                                                                 <div class="recent-match-type">
-                                                                <span class="match-type">NODEBUFF</span>
+                                                                <span class="match-type">BATTLERUSH</span>
                                                                     <span class="match-date"><time class="timeago"
-                                                                                                   datetime="2023-02-01T22:01:23Z"></time></span>
+                                                                                                   datetime="2022-09-01T23:29:34Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/ae5064db-fe32-47e9-8a65-da8ec080bda4">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1336
+                                                                            <span class="eloadd">(+10)</span>
+                                                                            
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">amphetyze</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/faef0cac-9021-49bf-9d2e-2f7e3fdce5e7"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-01T23:02:58Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/12539437-8321-4730-9a65-e997ec44c56f">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1326
+                                                                            
+                                                                            <span class="eloremove">(-23)</span>
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">amphetyze</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/faef0cac-9021-49bf-9d2e-2f7e3fdce5e7"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-01T23:01:18Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/d59b9098-61e2-4221-96d8-31d485ac6ddb">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1349
+                                                                            <span class="eloadd">(+9)</span>
+                                                                            
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">amphetyze</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/faef0cac-9021-49bf-9d2e-2f7e3fdce5e7"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-01T22:59:08Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/a92f8089-122d-4b6e-9944-597c15a38da8">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1340
+                                                                            <span class="eloadd">(+10)</span>
+                                                                            
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">amphetyze</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/faef0cac-9021-49bf-9d2e-2f7e3fdce5e7"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-01T22:57:34Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/970190a0-48de-4105-ac22-11a2a62fc95a">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1330
+                                                                            <span class="eloadd">(+4)</span>
+                                                                            
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">Host1kk</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/4dc92a1f-697a-4e5a-9b4d-e571376aa556"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-01T22:56:11Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/f82ca6f3-6167-4c5f-a082-557a7f6a2a6d">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1326
+                                                                            <span class="eloadd">(+4)</span>
+                                                                            
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">Gampl3</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/e038165c-8376-46c1-b3f5-f230a63928f5"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-01T22:44:00Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/ef5ad996-ca06-4860-b3fe-1f40545a2993">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1322
+                                                                            <span class="eloadd">(+4)</span>
+                                                                            
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">Kap987654321</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/6a63f7a5-ad00-439f-99f2-4e5a7922ec4a"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-01T22:27:26Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/dd0b244f-c743-46b4-9bb3-bffd78442e9b">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1318
+                                                                            <span class="eloadd">(+7)</span>
+                                                                            
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">Vhorux</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/d6e71081-ef93-4c31-ac8a-107fa9eae97b"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-01T22:22:37Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/cf31021f-72de-47b6-8c1f-7a9140539456">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1311
+                                                                            <span class="eloadd">(+12)</span>
+                                                                            
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">amphetyze</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/faef0cac-9021-49bf-9d2e-2f7e3fdce5e7"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-01T22:11:26Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/64981713-9091-4146-8b0d-965fbe233808">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1299
+                                                                            <span class="eloadd">(+4)</span>
+                                                                            
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">life_enjoyer</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/f47cdb34-441d-49de-9959-f06b5c905ace"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-01T20:47:41Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/dd26c0c2-f7f2-461d-a277-663baf434b25">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1295
+                                                                            <span class="eloadd">(+13)</span>
+                                                                            
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">hatemmc</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/875e7f26-7b67-4508-929a-aabb8590a4d8"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-01T20:39:52Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/c6110553-4531-4762-a605-9906bc37c616">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1282
+                                                                            <span class="eloadd">(+14)</span>
+                                                                            
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">hatemmc</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/875e7f26-7b67-4508-929a-aabb8590a4d8"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-01T20:36:11Z"></time></span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                        <div class="recent-match-holder">
+                                                            <a href="/match/8b363a29-1ba3-4fb8-af46-e8a037eb579f">
+                                                                <div class="recent-matches">
+                                                                    <div class="player-1">
+                                                                        <img src="https://visage.surgeplay.com/face/128/1aad3be2-a7c6-42ea-824a-28648969f789"/>
+                                                                        <div class="player-info">
+                                                                        <span class="name">dondesanta</span>
+                                                                            <span class="elo">
+                                                                            1268
+                                                                            <span class="eloadd">(+16)</span>
+                                                                            
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="vs">
+                                                                        <span>vs</span>
+                                                                    </div>
+                                                                    <div class="player-2">
+                                                                        <div class="player-info">
+                                                                        <span class="name">hatemmc</span>
+                                                                            <!--<span class="elo">9999 <span class="eloremove">(-13)</span></span>-->
+                                                                        </div>
+                                                                        <img src="https://visage.surgeplay.com/face/128/875e7f26-7b67-4508-929a-aabb8590a4d8"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="recent-match-type">
+                                                                <span class="match-type">BATTLERUSH</span>
+                                                                    <span class="match-date"><time class="timeago"
+                                                                                                   datetime="2022-09-01T20:28:45Z"></time></span>
                                                                 </div>
                                                             </a>
                                                         </div>
@@ -1287,9 +1287,9 @@
 
                                                         <i class="fas fa-star"></i>
 
-                                                        <span>Top Losses Leader</span>
+                                                        <span>BattleRush Leader</span>
                                                     </div>
-                                                    <div class="achievement-description">This player is currently featured on the Top Losses leaderboard.</div>
+                                                    <div class="achievement-description">This player is currently featured on the BattleRush leaderboard.</div>
                                                 </div>
 
                                             </div>
